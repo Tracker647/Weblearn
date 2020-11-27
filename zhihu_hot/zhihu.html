@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知乎热榜实战</title>
+    <link rel="shortcut icon" href="images/zhihu.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+</head>
+
+<body>
+    <header class="sticky">
+        <div class="w">
+            <div class="vertical">
+                <div class="logo"><img src="images/logo.png" alt=""></div>
+                <div class="link">
+                    <ul>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">发现</a></li>
+                        <li><a href="">等你来答</a></li>
+                    </ul>
+
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="知乎热榜实战" value="">
+                    <button class="Search icon-search"></button>
+                </div>
+                <button class="Ask">提问</button>
+
+                <div class="profile">
+                    <ul>
+                        <li>
+                            <a href="" class="icon-bell"></a>
+                        </li>
+                        <li>
+                            <a href="" class="icon-bubbles4"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/head.jpg" alt=""></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="w">
+        <div class="Card">
+            <div class="TopStory">
+                <div class="vertical">
+                    <a href="" class="TopStory-item">推荐</a>
+                    <a href="" class="TopStory-item">关注</a>
+                    <a href="" class="TopStory-item">热榜</a>
+                </div>
+            </div>
+            <div class="HotListNav">
+                <div class="vertical">
+                    <div class="HotListNav-items">
+                        <a href="" class="HotListNav-item">全站</a>
+                        <a href="" class="HotListNav-item">视频</a>
+                        <a href="" class="HotListNav-item">科学</a>
+                        <a href="" class="HotListNav-item">数码</a>
+                        <a href="" class="HotListNav-item">体育</a>
+                        <a href="" class="HotListNav-item">时尚</a>
+                        <a href="" class="HotListNav-item">影视</a>
+                    </div>
+                    <!-- 怎么用矢量图去查查？ -->
+                    <button class="Button"><i class="Button-expand">展开↓</i></button>
+                </div>
+
+            </div>
+            <div class="HotList-List">
+                <ul>
+                    <li class="HotItem">
+                        <div class="HotItem-index"></div>
+                        <div class="HotItem-content">
+                            <h5>知乎热榜实战</h5>
+                            <p> 这是一个朋克的项目目目目目目目目目目目目目目~</p>
+                            <div class="HotItem-metrics">
+                                <p><span class="icon-fire"></span>996万热度</p>
+                                <span class="HotItem-share"><span class="icon-send"></span>分享</span>
+                            </div>
+                        </div>
+                        <a href="" class="HotItem-img"><img src="images/img1.jpg" alt=""></a>
+                    </li>
+                    <li class="HotItem">
+                        <div class="HotItem-index"></div>
+                        <div class="HotItem-content">
+                            <h5>知乎热榜实战</h5>
+                            <p> 这是一个朋克的项目目目目目目目目目目目目目目~</p>
+
+                        </div>
+                        <a href="" class="HotItem-img"><img src="images/img1.jpg" alt=""></a>
+                    </li>
+                    <li class="HotItem">
+                        <div class="HotItem-index"></div>
+                        <div class="HotItem-content">
+                            <h5>知乎热榜实战</h5>
+                            <p> 这是一个朋克的项目目目目目目目目目目目目目目~</p>
+                        </div>
+                        <a href="" class="HotItem-img"><img src="images/img1.jpg" alt=""></a>
+                    </li>
+                    <li class="HotItem">
+                        <div class="HotItem-index"></div>
+                        <div class="HotItem-content">
+                            <h5>知乎热榜实战</h5>
+                            <p> 这是一个朋克的项目目目目目目目目目目目目目目~</p>
+                        </div>
+                        <a href="" class="HotItem-img"><img src="images/img1.jpg" alt=""></a>
+                    </li>
+                    <li class="HotItem">
+                        <div class="HotItem-index"></div>
+                        <div class="HotItem-content">
+                            <h5>知乎热榜实战</h5>
+                            <p> 这是一个朋克的项目目目目目目目目目目目目目目~</p>
+                        </div>
+                        <a href="" class="HotItem-img"><img src="images/img1.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="HotList-end">-没有更多内容-</div>
+        </div>
+        <div class="GlobalSideBar">
+            <ul>
+                <li>
+                    <div class="Global_Write"></div>
+                </li>
+                <li>
+                    <div class="Global_Club"></div>
+                </li>
+                <li>
+                    <div class="Global_Creat"></div>
+                </li>
+                <li>
+                    <div class="Global_Category"></div>
+                </li>
+                <li>
+                    <div class="Global_Bar"></div>
+                </li>
+                <footer class="footer"></footer>
+
+            </ul>
+
+        </div>
+    </div>
+    <script text="HotItem-index">
+        var index = document.querySelectorAll(".HotItem-index");
+        console.log(".HotItem-index");
+        for (var i = 0; i < index.length; i++) {
+            index[i].innerHTML = i + 1;
+            if (i < 3) {
+                index[i].style.color = '#ff9607';
+            } else {
+                index[i].style.color = '#999999';
+            }
+
+        }
+    </script>
+</body>
+
+</html>
