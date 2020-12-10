@@ -1,5 +1,4 @@
 body {
-    height: 3000px;
     background-color: #f6f6f6;
 }
 
@@ -10,13 +9,14 @@ body {
 }
 
 .w {
+    margin: auto;
+    justify-content: center;
+    /* display: flex; */
     width: 1000px;
-    margin: 0 auto;
 }
 
 a {
-    padding: 0 17px;
-    color: #8590a6;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -39,7 +39,6 @@ li {
 input[type="text"] {
     outline: none;
     border-color: transparent;
-    padding-left: 12px;
 }
 
 button {

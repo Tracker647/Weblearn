@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?oaeory');
+    src: url('fonts/icomoon.eot?oaeory#iefix') format( 'embedded-opentype'), url('fonts/icomoon.ttf?oaeory') format( 'truetype'), url('fonts/icomoon.woff?oaeory') format( 'woff'), url('fonts/icomoon.svg?oaeory#icomoon') format( 'svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.logo img {
+    width: 64px;
+    height: 30px;
+}
+
+header {
+    height: 52px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 23%);
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
+
+.vertical {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.header_Logo {
+    float: left;
+    margin-right: 20px;
+    padding-top: 11px;
+    cursor: pointer;
+    background: url();
+}
+
+.link ul li {
+    line-height: 52px;
+    flex: 1 1 auto;
+    margin: 0px 3px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 11px;
+}
+
+.search input[type="text"] {
+    width: 240px;
+    height: 35px;
+    border-color: transparent;
+    background-color: #f6f6f6;
+}
+
+.Button {
+    float: right;
+    width: 48px;
+    height: 26px;
+    text-align: center;
+    color: #8590a6;
+    border: 1px solid #8590a6;
+    border-radius: 20px;
+    background-color: white;
+}
+
+button.Ask {
+    width: 58px;
+    height: 34px;
+    color: white;
+    border-radius: 20%;
+    background-color: #1488e8;
+}
+
+.profile {
+    width: 200px;
+    margin-left: 60px;
+}
+
+.profile ul {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.profile ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile ul li a {}
+
+.profile ul li {
+    font-size: 20px;
+}
+
+.HotListNav-items {
+    float: left;
+    height: 30px;
+    margin-right: 90px;
+    margin-left: 20px;
+}
+
+.GlobalSideBar {
+    float: left;
+    width: 289px;
+    height: 640px;
+}
+
+.Card {
+    /* height: 640px; */
+    float: left;
+    width: 694px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.GlobalSideBar ul li {
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: wheat;
+}
+
+.TopStory {
+    height: 53px;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+.TopStory-item {
+    padding: 0 17px;
+    color: black;
+}
+
+.TopStory-item:hover {
+    color: #0084ff;
+}
+
+li.HotItem {
+    height: 143px;
+    margin-top: 15px;
+    border-bottom: 1px solid #f0f2f7;
+    background-color: white;
+}
+
+.HotListNav {
+    height: 53px;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+.Button-expand {
+    /* color: #8590a6; */
+    font-size: 13px;
+    top: 3px;
+    left: 7px;
+    /* position: absolute; */
+}
+
+.downarror {}
+
+.HotListNav-item {
+    font-size: 15px;
+    float: left;
+    width: 65px;
+    height: inherit;
+    margin-right: 10px;
+    padding: 5px 17px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.HotListNav-item:hover {
+    color: #0585ff;
+    background-color: #e5f2ff;
+}
+
+.HotItem-index {
+    font-size: 30px;
+    float: left;
+    width: 57px;
+    height: inherit;
+    margin-right: 2px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+}
+
+a.HotItem-img {
+    float: right;
+}
+
+.HotItem-img img {
+    width: 190px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.HotItem-content {
+    /* background-color: bisque; */
+    float: left;
+    width: 410px;
+    height: 91px;
+}
+
+.HotItem-content>p {
+    font-size: 17px;
+    margin: 15px 0;
+    /* width: 400px; */
+    /* height: 60px; */
+    /* background-color: azure; */
+}
+
+.HotItem-metrics {
+    font-size: 16px;
+    /* background-color: #a25800; */
+    width: 200px;
+    height: 26px;
+    margin-top: 35px;
+    color: #8693b0;
+}
+
+.HotItem-metrics>p {
+    float: left;
+    /* width: 100px; */
+    /* height: 50px; */
+}
+
+span.HotItem-share {
+    /* background-color: red; */
+    float: right;
+}
+
+.HotItem-metrics [class^="icon-"] {
+    font-size: 13px;
+    /* background-color: red; */
+}
+
+.HotItem-content>a {
+    color: black;
+}
+
+a.HotListNav-item {
+    line-height: 30px;
+    padding: 0 17px;
+}
+
+.HotListNav-item a {}
+
+.HotItem-metrics p {
+    margin-right: 50px;
+}
+
+.HotItem-content h5 {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.HotItem-content p {}
+
+.HotList-end {
+    /* top: 100%; */
+    padding: 30px 0;
+    text-align: center;
+    color: #999;
+    /* position: absolute; */
+}
+
+.GlobalWrite-navTop {
+    width: 292px;
+    height: 107px;
+    padding: 27px 23px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+a.GlobalWrite-topItem {
+    float: left;
+    margin-right: 19px;
+}
+
+.GlobalWrite-topTitle {
+    font-size: 12px;
+    text-align: center;
+    color: #616161;
+}
+
+.GlobalWrite-navWrapper {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 25px 45px;
+    border-right: 1px solid #f4f4f4;
+}
+
+.GlobalWrite-navBottom {
+    height: 82px;
+    /* background-color: aqua; */
+}
+
+.GlobalWrite {
+    display: flex;
+    height: 170px;
+    background-color: white;
+}
+
+.GlobalWrite-navTitle {
+    color: #9898b6;
+}
+
+button.Search.icon-search {}
+
+.link>ul>li>a {
+    padding: 0 17px;
+}
+
+.link {}
+
+.link ul {
+    display: flex;
+}
+
+.profile>ul>li>a {
+    padding: 0px 20px;
+}
+
+.ogo {}
