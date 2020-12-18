@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+.w {
+    margin: auto;
+    justify-content: center;
+    /* display: flex; */
+    width: 1000px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.search button {
+    padding: 10px;
+    line-height: 15px;
+    height: 35px;
+    background-color: #f6f6f6;
+    border-color: transparent;
+}
+
+input[type="text"] {
+    outline: none;
+    border-color: transparent;
+}
+
+button {
+    cursor: pointer;
+    border-color: transparent;
+    outline: none;
+}
