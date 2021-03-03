@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="msgboard">
+        <textarea id="text" cols="40" rows="5" placeholder="在这里输入你的想法"></textarea>
+        <button class="submit btn-default">提交</button>
+        <ul class="msglist">
+            评论列表 
+        </ul>
+    </div>
+    <div id="list">
+    </div>
+</body>
+<script>
+var text = null
+var textlist = [] //数据存放区域
+var txt = document.getElementById("text")
+var list = document.getElementById("list")
+document.getElementsByClassName("submit")[0].addEventListener("click",()=>{
+    text = txt.value
+    if(text!=""){
+        textlist[textlist.length] = text
+        add()
+        txt.value=''
+    }
+})
+function add(){
+    list.innerHTML += "<p>"+textlist[textlist.length-1]+"</P>"+"<button onclick='del("+ (textlist.length-1) +")' >删除</button>"
+}
+function del(e){
+    textlist.splice(e,1);
+    list.innerHTML = "";
+    for(var i = 0;i<textlist.length;i++){
+        list.innerHTML += "<p>"+textlist[i]+"</P>" + "<button onclick='del("+ (i) +")' >删除</button>"  //由数据获得删除后的剩余数据
+    }
+}
+
+</script>
+</html>

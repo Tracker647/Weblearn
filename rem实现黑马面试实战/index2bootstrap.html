@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css2/base.css">
+  <link rel="stylesheet" href="css2/common_copy.css">
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="package/swiper-bundle.min.css">
+</head>
+<!-- 对元素滥用rem容易导致元素失调，目前总结: -->
+<!-- 1.对图片等元素，若要使其保持在父页面上的相对大小，则尽量使用百分比而不是rem
+2.对于边距等若有必要设定的rem值不超过1，防止过度放缩 -->
+<body>
+  <section class="wrap">
+    <div class="header">
+      黑马面试
+    </div>
+    <nav>
+      <div class="navlist">
+        <a href="" class="navItem"><img src="icons/icon1.png" alt=""><span>HR面试 </span></a>
+        <a href="" class="navItem"><img src="icons/icon2.png" alt=""><span>笔试 </span></a>
+        <a href="" class="navItem"><img src="icons/icon3.png" alt=""><span>技术面试</span></a>
+        <a href="" class="navItem"><img src="icons/icon4.png" alt=""><span>模拟面试</span></a>
+        <a href="" class="navItem"><img src="icons/icon5.png" alt=""><span>面试技巧</span></a>
+        <a href="" class="navItem"><img src="icons/icon6.png" alt=""><span>薪资查询</span></a>
+      </div>
+    </nav>
+    <div class="go"><img class="img-responsive" src="image2/go.png" alt=""></div>
+  </section>
+  <!-- 就业指导模块 -->
+  <section class="jobguide content">
+    <div class="jg-con-hd">
+      <div class="jg-title">
+        <img src="icons/i2.png" alt="">
+        <span>就业指导</span>
+      </div>
+      <span class="jg-more">更多>></span>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container job-fo">
+      <div class="swiper-wrapper ">
+        <div class="swiper-slide"><img src="image2/2.jpg" alt="">
+          <p>名师手把手 带你进大厂</p>
+        </div>
+        <div class="swiper-slide"><img src="image2/3.jpg" alt="">
+          <p>名师手把手 带你进大厂</p>
+        </div>
+        <div class="swiper-slide"><img src="image2/pic.png" alt="">
+          <p>名师手把手 带你进大厂</p>
+        </div>
+        <div class="swiper-slide"><img src="image2/ldh.jpg" alt="">
+          <p>名师手把手 带你进大厂</p>
+        </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+  </section>
+  <!-- 充电学习模块 -->
+  <section class="charge content">
+    <div class="cg-con-hd">
+      <div class="cg-title">
+        <img src="icons/i2.png" alt="">
+        <span>充电学习</span>
+      </div>
+      <div class="cg-more">更多>></div>
+    </div>
+    <div class="swiper-container charge-fo">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="img-responsive" src="image2/pic1.png" alt=""><span>告别一技之长，学会多元发展</span><p>996人学习</p></div>
+        <div class="swiper-slide"><img class="img-responsive" src="image2/pic1.png" alt=""><span>告别一技之长，学会多元发展</span><p>996人学习</p></div>
+        <div class="swiper-slide"><img class="img-responsive" src="image2/pic1.png" alt=""><span>告别一技之长，学会多元发展</span><p>996人学习</p></div>
+        <div class="swiper-slide"><img class="img-responsive" src="image2/pic1.png" alt=""><span>告别一技之长，学会多元发展</span><p>996人学习</p></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <footer class="appnav">
+    <a href="" class="an-item">
+      <img class="img-responsive" src="icons/home.png" alt="">
+      <p>首页</p>
+    </a>
+    <a href="" class="an-item">
+      <img class="img-responsive" src="icons/net.png" alt="">
+      <p>技术面试</p>
+    </a>
+    <a href="" class="an-item">
+      <img class="img-responsive" src="icons/ms.png" alt="">
+      <p>模拟面试</p>
+    </a>
+    <a href="" class="an-item">
+      <img class="img-responsive" src="icons/user.png" alt="">
+      <p>我的主页</p>
+    </a>
+  </footer>
+  <!-- Swiper JS -->
+  <script src="package/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".job-fo", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    var swiper = new Swiper('.charge-fo', {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+
+    });
+  </script>
+  <script src="js2/flexible.js"></script>
+</body>
+
+</html>

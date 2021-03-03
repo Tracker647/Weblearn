@@ -1,0 +1,61 @@
+.Main{
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.Main-Inner{
+    display: flex;
+}
+.MainColumn {
+    width: 950px;
+    border: 1px solid #f6f6f6;
+    margin-right: 2vw;
+}
+
+.GlobalSideBar {
+    display: block;
+    border: 1px solid #f6f6f6;
+    box-shadow: 2px 2px 4px 3px #938d8d1c;
+}
+.HotListNav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+.HotListNav-item {
+    background-color: #f6f6f6;
+    padding: 6px 16px;
+    margin: 4px;
+}
+
+a.TopCard-item {
+    padding: 0.5em 2em;
+}
+
+li.Tabs-item.is-active {
+    padding: 0.5em 1em;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.TopCard {
+    padding: 0.1rem 0rem;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+a.HotListNav-item {
+    padding: 0.1rem 0.3rem;
+}
+
+button[class^="UserInfo-"] {
+    font-size: 19px;
+    background-color: transparent;
+    margin: 0rem 0.3rem;
+}
+
+[class^="UserInfo-"] {
+    margin: 0rem 0.3rem;
+}

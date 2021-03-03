@@ -26,9 +26,9 @@ body {
   .navlist {
     display: flex;
     flex-wrap: wrap;
-    width: 17.12rem;
+/*     width: 17.12rem; */
     height: 11.146667rem;
-    padding: 1.2rem 0rem 0rem 1.386667rem;
+    padding: 1.2rem 0rem 1.386667rem 0rem;
   }
   .navlist a {
     display: flex;
@@ -39,7 +39,7 @@ body {
     text-align: center;
   }
   .navlist a:nth-child(-n+3) {
-    margin-bottom: 0.266667rem;
+    margin-bottom: 1.266667rem;
   }
   .navlist a img {
     width: 3.6rem;
@@ -54,8 +54,8 @@ body {
     padding: 0.4rem 0.031467rem;
   }
   .go img {
-    width: 19.253333rem;
-    height: 4.053333rem;
+    /* width: 19.253333rem; */
+    /* height: 4.053333rem; */
   }
   .jobguide {
     position: relative;
@@ -107,7 +107,7 @@ body {
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
   }
   .charge .swiper-slide img {
-    width: 100%;
+    /* width: 100%; */
   }
   .charge .swiper-slide span {
     font-size: 0.693333rem;
@@ -146,8 +146,8 @@ body {
   }
   
   .an-item img{
-    width: 1.066667rem;
-    height: 1.066667rem;
+    /* width: 1.066667rem;
+    height: 1.066667rem; */
   }
   
   .an-item p{

@@ -1,0 +1,46 @@
+.msgboard textarea {
+    /* width: 85vw; */
+    height: 15rem;
+    margin: 2rem 0;
+}
+
+.msgboard button {
+    margin-right: auto;
+}
+
+.msgItem-prototype{
+    display: none;
+}
+
+.msgItem-prototype,.msgItem {
+    width: 21rem;
+    padding: 0 1rem;
+    border-bottom: 1px solid #767676;
+    background-color: pink;
+}
+
+.msgItem-user {}
+
+.msgItem-content {
+    border: 1px solid #767676;
+    height: 7rem;
+}
+
+.msgItem-del {
+    display: inline-block;
+    margin-left: 89%;
+    color: blue;
+    cursor: pointer;
+}
+
+.msgItem-content>p {
+    height: 20vh;
+    margin: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+.msgboard {
+}
